@@ -32,4 +32,7 @@ for i in a :
         count+=1
         
 if count >= 5:
-    print ( ' limt reached')
+    print ( ' limt reached') 
+
+else :
+    print ('got some space ')
