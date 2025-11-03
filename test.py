@@ -47,5 +47,22 @@ largest is:111
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+n =int (input('ENTER N:'))
+count =0
+while n>0:
+    n=n//10
+    count+=1
+print(f'number of digits:{count}')
+
+output 1:
+ENTER N:15245645282648265
+number of digits:17
+
+output2:
+ENTER N:0000000000000000000000000001
+number of digits:1
+
+######################################################
 
