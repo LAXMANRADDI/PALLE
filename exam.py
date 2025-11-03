@@ -43,4 +43,48 @@ output1:
  
 output2:
 0
-1
+1 
+
+##########################################
+palindrome check
+
+m = int(input('Enter a number: '))
+n = m  
+s = 0   
+
+while m > 0:
+    r = m % 10     
+    s = s * 10 + r 
+    m = m // 10    
+
+if n == s:
+    print('Number is a palindrome')
+else:
+    print('Number is not a palindrome')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
