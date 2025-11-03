@@ -66,3 +66,13 @@ number of digits:1
 
 ######################################################
 
+Fibonacci sequence up to n terms
+n = 10
+a, b = 0, 1
+print(a, b, end=" ") 
+for i in range(2, n):
+    c = a + b
+    print(c, end=" ")
+    a = b
+    b = c
+
