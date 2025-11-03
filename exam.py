@@ -40,3 +40,7 @@ print(fact)
 output1:
 9
 362880
+ 
+output2:
+0
+1
