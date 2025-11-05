@@ -1,3 +1,5 @@
+creatinga timer using simple while loop 
+
 import time
 x = input (int ())
 while x>= 1:
