@@ -14,4 +14,7 @@ s = 'palle technology'
 r =  s.split() #   [ 'palle' , 'technology']
 r= s.spit('') # throws error since seperator is not defined
 r = s.split('e', 1) # ['pall' , ' technology']
-r= s.split('e', 2) # ['pall' , ' t' , 'chnology']
+r= s.split('e', 2) # ['pall' , ' t' , 'chnology'] 
+r= s.split ('l') # ['pa', '', 'e techno', 'ogy']
+
+
