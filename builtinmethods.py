@@ -13,12 +13,29 @@
 | `reverse()` | `nums.reverse()`        | Reverse the list.                    |
 | `copy()`    | `b = nums.copy()`       | Make a shallow copy of list.         |
 
-2]tuple() / 10, 
+2]tuple() / 10,  :
 | **Method** | **Example**  | **Application / Description**                |
 | ---------- | ------------ | -------------------------------------------- |
 | `count()`  | `t.count(5)` | Count how many times value appears in tuple. |
 | `index()`  | `t.index(5)` | Return index of first occurrence.            |
 
+
+
+
+  3] set():*
+| **Method**               | **Example**                 | **Application / Description**                       |
+| ------------------------ | --------------------------- | --------------------------------------------------- |
+| `add()`                  | `s.add(10)`                 | Add single element to set.                          |
+| `remove()`               | `s.remove(5)`               | Remove specific element (error if not found).       |
+| `discard()`              | `s.discard(5)`              | Remove element if present, no error if missing.     |
+| `pop()`                  | `s.pop()`                   | Remove and return random element.                   |
+| `clear()`                | `s.clear()`                 | Remove all elements from set.                       |
+| `update()`               | `s.update([4,5,6])`         | Add multiple elements.                              |
+| `copy()`                 | `b = s.copy()`              | Make a shallow copy of set.                         |
+| `union()`                | `s.union(t)`                | Return new set with all elements from both.         |
+| `intersection()`         | `s.intersection(t)`         | Return common elements.                             |
+| `difference()`           | `s.difference(t)`           | Return elements in `s` but not in `t`.              |
+| `symmetric_difference()` | `s.symmetric_difference(t)` | Return elements in either `s` or `t`, but not both. |
 
 
 
