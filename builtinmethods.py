@@ -18,6 +18,10 @@ Application: Dynamic data like task lists, queues, etc.
 | `copy()`    | `b = nums.copy()`       | Make a shallow copy of list.         |
 
 2]tuple() / 10,  :
+*Immutable, ordered, allows duplicates
+*Methods: count(), index()
+
+Application: Fixed data (e.g., coordinates, config values).
 | **Method** | **Example**  | **Application / Description**                |
 | ---------- | ------------ | -------------------------------------------- |
 | `count()`  | `t.count(5)` | Count how many times value appears in tuple. |
