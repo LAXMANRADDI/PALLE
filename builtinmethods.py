@@ -1,4 +1,4 @@
-list():
+1]list():
 | **Method**  | **Example**             | **Application / Description**        |
 | ----------- | ----------------------- | ------------------------------------ |
 | `append()`  | `nums.append(10)`       | Add single element at the end.       |
@@ -13,7 +13,11 @@ list():
 | `reverse()` | `nums.reverse()`        | Reverse the list.                    |
 | `copy()`    | `b = nums.copy()`       | Make a shallow copy of list.         |
 
-
+2]tuple() / 10, 
+| **Method** | **Example**  | **Application / Description**                |
+| ---------- | ------------ | -------------------------------------------- |
+| `count()`  | `t.count(5)` | Count how many times value appears in tuple. |
+| `index()`  | `t.index(5)` | Return index of first occurrence.            |
 
 
 
