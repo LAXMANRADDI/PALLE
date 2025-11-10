@@ -96,3 +96,16 @@ OVERVIEW::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 | `items()`          |   ❌ No   |        ❌ No        |               ❌ No              |         ✅ Yes        |
 | `setdefault()`     |   ❌ No   |        ❌ No        |               ❌ No              |         ✅ Yes        |
 | `fromkeys()`       |   ❌ No   |        ❌ No        |               ❌ No              | ✅ Yes (class method) |
+
+  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+  setdefault() :
+# Setting default marks for students
+marks = {}
+for name in ['Amit', 'Ravi', 'Amit']:
+    marks.setdefault(name, 0)
+    marks[name] += 10
+print(marks)#{'Amit': 20, 'Ravi': 10}
+
+
+
+
