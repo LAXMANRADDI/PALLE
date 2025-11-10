@@ -1,3 +1,17 @@
+list():
+| **Method**  | **Example**             | **Application / Description**        |
+| ----------- | ----------------------- | ------------------------------------ |
+| `append()`  | `nums.append(10)`       | Add single element at the end.       |
+| `extend()`  | `nums.extend([20, 30])` | Add multiple elements.               |
+| `insert()`  | `nums.insert(1, 15)`    | Insert element at specific position. |
+| `remove()`  | `nums.remove(15)`       | Remove first matching element.       |
+| `pop()`     | `nums.pop()`            | Remove and return last element.      |
+| `clear()`   | `nums.clear()`          | Remove all elements.                 |
+| `index()`   | `nums.index(10)`        | Return index of first occurrence.    |
+| `count()`   | `nums.count(10)`        | Count how many times value appears.  |
+| `sort()`    | `nums.sort()`           | Sort list in ascending order.        |
+| `reverse()` | `nums.reverse()`        | Reverse the list.                    |
+| `copy()`    | `b = nums.copy()`       | Make a shallow copy of list.         |
 
 
 
