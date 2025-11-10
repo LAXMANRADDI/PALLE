@@ -40,7 +40,19 @@
 
 
 
-
+4]dict():
+| **Method**     | **Example**                     | **Application / Description**                       |
+| -------------- | ------------------------------- | --------------------------------------------------- |
+| `get()`        | `d.get('name', 'Unknown')`      | Return value for key or default if not found.       |
+| `keys()`       | `d.keys()`                      | Return all keys.                                    |
+| `values()`     | `d.values()`                    | Return all values.                                  |
+| `items()`      | `d.items()`                     | Return key-value pairs as tuples.                   |
+| `update()`     | `d.update({'age': 25})`         | Add or modify key-value pairs.                      |
+| `pop()`        | `d.pop('age')`                  | Remove item with given key.                         |
+| `clear()`      | `d.clear()`                     | Remove all items.                                   |
+| `copy()`       | `new = d.copy()`                | Return shallow copy of dictionary.                  |
+| `setdefault()` | `d.setdefault('city', 'Delhi')` | Return value if key exists, else add with default.  |
+| `fromkeys()`   | `dict.fromkeys(['a','b'], 0)`   | Create new dictionary from keys with default value. |
 
 
 
