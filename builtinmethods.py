@@ -53,7 +53,13 @@ Application: Fixed data (e.g., coordinates, config values).
 
 
 
-4]dict():
+4]dict(): 
+
+*Key–value pairs, mutable
+*Methods: get(), keys(), values(), items(), update(), pop(), clear(), setdefault(), fromkeys()
+*Application: Fast lookups (like storing user data, word counts, etc.)
+
+                           
 | **Method**     | **Example**                     | **Application / Description**                       |
 | -------------- | ------------------------------- | --------------------------------------------------- |
 | `get()`        | `d.get('name', 'Unknown')`      | Return value for key or default if not found.       |
