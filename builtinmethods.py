@@ -1,4 +1,8 @@
 1]list():
+*Mutable, ordered, allows duplicates
+*Methods: append(), extend(), insert(), remove(), pop(), clear(), count(), index(), sort(), reverse(), copy()
+
+Application: Dynamic data like task lists, queues, etc.
 | **Method**  | **Example**             | **Application / Description**        |
 | ----------- | ----------------------- | ------------------------------------ |
 | `append()`  | `nums.append(10)`       | Add single element at the end.       |
