@@ -30,7 +30,12 @@ Application: Fixed data (e.g., coordinates, config values).
 
 
 
-  3] set():*
+  3] set():
+
+*Mutable, unordered, unique elements
+*Methods: add(), remove(), discard(), pop(), clear(), update()
+*Application: Membership testing, removing duplicates, set operations.
+  
 | **Method**               | **Example**                 | **Application / Description**                       |
 | ------------------------ | --------------------------- | --------------------------------------------------- |
 | `add()`                  | `s.add(10)`                 | Add single element to set.                          |
