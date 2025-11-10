@@ -97,6 +97,24 @@ OVERVIEW::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 | `setdefault()`     |   ❌ No   |        ❌ No        |               ❌ No              |         ✅ Yes        |
 | `fromkeys()`       |   ❌ No   |        ❌ No        |               ❌ No              | ✅ Yes (class method) |
 
+imp
+  
+
+  | Feature / Aspect                           | **Assignment Operator (`=`)**                                                      | **`setdefault()`**                                                          | **`update()`**                                                                  |
+| ------------------------------------------ | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Purpose**                                | Add a new key or overwrite an existing key with a given value.                     | Return the value if key exists; otherwise add the key with a default value. | Add or modify multiple key–value pairs at once (from another dict or iterable). |
+| **Usage Syntax**                           | `dict[key] = value`                                                                | `dict.setdefault(key, default)`                                             | `dict.update(other_dict)` or `dict.update(key=value)`                           |
+| **If key exists**                          | Value is **overwritten**.                                                          | Existing value is **returned** (no overwrite).                              | Value is **overwritten**.                                                       |
+| **If key does not exist**                  | Adds key with the given value.                                                     | Adds key with the default value and returns it.                             | Adds new key–value pairs.                                                       |
+| **Return value**                           | Returns the **assigned value** when accessed later. (No return during assignment.) | Returns the **value** of the key (existing or new).                         | Returns **None** (modifies in place).                                           |
+| **Number of keys handled**                 | One key at a time.                                                                 | One key at a time.                                                          | Multiple keys at once.                                                          |
+| **Modifies dictionary?**                   | ✅ Yes                                                                              | ✅ Yes (only if key doesn’t exist)                                           | ✅ Yes                                                                           |
+| **Overwrites data?**                       | ✅ Yes                                                                              | ❌ No                                                                        | ✅ Yes                                                                           |
+| **Supports iterables / multiple updates?** | ❌ No                                                                               | ❌ No                                                                        | ✅ Yes (dict, list of tuples, kwargs)                                            |
+| **Raises KeyError?**                       | ❌ No (creates new key)                                                             | ❌ No                                                                        | ❌ No                                                                            |
+| **Common use-case**                        | Direct assignment / updating values.                                               | Setting default values (like initializing missing data).                    | Merging or bulk-updating dictionaries.                                          |
+
+
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
   setdefault() :
 # Setting default marks for students
