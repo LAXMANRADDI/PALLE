@@ -116,7 +116,7 @@ imp
 
 
   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
-  setdefault() :
+a]  setdefault() :
 # Setting default marks for students
 marks = {}
 for name in ['Amit', 'Ravi', 'Amit']:
@@ -125,5 +125,13 @@ for name in ['Amit', 'Ravi', 'Amit']:
 print(marks)#{'Amit': 20, 'Ravi': 10}
 
 
+b]swapcase() — String Method 
+works with string and string part of sequencial data types .
+swapcase() is a built-in string method that toggles the case of each letter:
+Uppercase → Lowercase
+Lowercase → Uppercase
 
+text = "HeLLo123"
+print(text.swapcase())
+output: hEllO123
 
