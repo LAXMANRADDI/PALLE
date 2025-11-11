@@ -1,4 +1,4 @@
-creatinga timer using simple while loop 
+creating a timer using simple while loop 
 
 import time # import time from sys
 x = input (int ()) # time in seconds 
