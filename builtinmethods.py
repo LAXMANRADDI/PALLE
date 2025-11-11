@@ -135,3 +135,15 @@ text = "HeLLo123"
 print(text.swapcase())
 output: hEllO123
 
+b.1]mannual method
+l1 = ['a', 'A', 'c', 'G']
+l2 = []
+
+for i in l1:
+    if 'A' <= i <= 'Z':          # if uppercase
+        l2.append(chr(ord(i) + 32))   # convert to lowercase
+    elif 'a' <= i <= 'z':        # if lowercase
+        l2.append(chr(ord(i) - 32))   # convert to uppercase
+
+print(l2)
+
