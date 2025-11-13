@@ -70,7 +70,6 @@ i]num = 6
 for i in range(1,num +1):
     for j in range( 1 , num -i ):
         print(j, end =' ')
-        
     print()
 
 ii]n = 4
