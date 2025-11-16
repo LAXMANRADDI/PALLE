@@ -60,4 +60,11 @@ print(capitalized)  # Output: ['Python', 'Is', 'Fun']
  4 ] 2d list ::
 matrix = [[1, 2], [3, 4], [5, 6]]
 flat_list = [num for sublist in matrix for num in sublist]
-print(flat_list)  # Output: [1, 2, 3, 4, 5, 6]
+print(flat_list)  # Output: [1, 2, 3, 4, 5,6]
+
+
+5] Find Common Elements (Set Intersection)
+Given two lists, get the common elements 
+list1 = [1, 2, 3, 4]
+list2 = [3, 4, 5, 6]
+common = [x for x in list1 if x in list2]  # [3, 4]
