@@ -47,4 +47,11 @@ print(squares)  # Output: [1, 4, 9, 16, 25]
 2]2. With Condition
 Get all even numbers from 1 to 10: 
 evens = [x for x in range(1, 11) if x % 2 == 0]
-print(evens)  # Output: [2, 4, 6, 8, 10]
+print(evens)  # Output: [2, 4, 6, 8, 10] 
+
+3]  to capitalize each word in list :;
+ Using Strings
+Capitalize each word in a list:
+words = ["python", "is", "fun"]
+capitalized = [word.capitalize() for word in words]
+print(capitalized)  # Output: ['Python', 'Is', 'Fun']
