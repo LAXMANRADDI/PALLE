@@ -36,3 +36,15 @@ if count >= 5:
 
 else :
     print ('got some space ')
+
+
+* ]]list cpmrehension practice:
+---------------------------------------------------
+1] Create a list of squares from 1 to 5:
+squares = [x * x for x in range(1, 6)]
+print(squares)  # Output: [1, 4, 9, 16, 25]
+
+2]2. With Condition
+Get all even numbers from 1 to 10: 
+evens = [x for x in range(1, 11) if x % 2 == 0]
+print(evens)  # Output: [2, 4, 6, 8, 10]
