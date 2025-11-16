@@ -67,4 +67,9 @@ print(flat_list)  # Output: [1, 2, 3, 4, 5,6]
 Given two lists, get the common elements 
 list1 = [1, 2, 3, 4]
 list2 = [3, 4, 5, 6]
-common = [x for x in list1 if x in list2]  # [3, 4]
+common = [x for x in list1 if x in list2]  # [3, 4] 
+
+6] Filter and Transform
+Given a list of integers, double only those which are divisible by 3:
+nums = [1, 3, 4, 6, 7, 9]
+result = [x * 2 for x in nums if x % 3 == 0] # [6, 12, 18]
