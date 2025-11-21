@@ -123,7 +123,7 @@ for name in ['Amit', 'Ravi', 'Amit']:
     marks.setdefault(name, 0)
     marks[name] += 10
 print(marks)#{'Amit': 20, 'Ravi': 10}
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 b]swapcase() — String Method 
 works with string and string part of sequencial data types .
