@@ -30,7 +30,7 @@ for i in range(1, n + 1):           # Outer loop → rows
     for j in range(1, i + 1):       # Inner loop → numbers in each row
         print(j, end=" ")           # Print numbers in the same line
     print()                         # Move to the next line after each row
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2] requiured pattern:
 1
 2 2
