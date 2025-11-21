@@ -16,7 +16,7 @@ Application: Dynamic data like task lists, queues, etc.
 | `sort()`    | `nums.sort()`           | Sort list in ascending order.        |
 | `reverse()` | `nums.reverse()`        | Reverse the list.                    |
 | `copy()`    | `b = nums.copy()`       | Make a shallow copy of list.         |
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2]tuple() / 10,  :
 *Immutable, ordered, allows duplicates
 *Methods: count(), index()
