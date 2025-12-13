@@ -27,8 +27,6 @@ Application: Fixed data (e.g., coordinates, config values).
 | `count()`  | `t.count(5)` | Count how many times value appears in tuple. |
 | `index()`  | `t.index(5)` | Return index of first occurrence.            |
 
-
-
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   3] set():
 
