@@ -11,8 +11,6 @@ print (res)
 
 --------------------------------------------------------------
  with dictionary 
-
-
 x = int ( input ('entr age: ') )
 res = {False :'is not adult ' , True :'is adult '}[x >= 18]
 print (res)
