@@ -29,5 +29,4 @@ for i in l1:
         l2.append(chr(ord(i) + 32))
     elif 'a' <= i <= 'z':      # lowercase → uppercase
         l2.append(chr(ord(i) - 32))
-
 print(l2)
