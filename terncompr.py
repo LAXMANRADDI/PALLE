@@ -16,8 +16,6 @@ print (res)
 x = int ( input ('entr age: ') )
 res = {False :'is not adult ' , True :'is adult '}[x >= 18]
 print (res)
-
-#################################################################
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 simple use of if condn
 
