@@ -4,10 +4,7 @@ arr = [1,2,3,4,5,6,7,8,9,10]
 
 for i in range(len(arr)-1, -1, -1):
     print(arr[i], end=" ")
-```
-
----
-
+``
 2) Print numbers 1 to 100 in lines of 10 using for loop
 num = 1
 for i in range(1, 11):
