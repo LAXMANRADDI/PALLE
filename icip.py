@@ -1,12 +1,4 @@
-Here are **clean Python answers** for all questions, written **as expected in a foundation written test** and **following the rule**:
-❌ no `[::-1]`
-❌ no `reversed()`
-✅ only `for` loop and list usage
-
----
-
-## **1) Reverse an array of 10 numbers using for loop**
-
+1) Reverse an array of 10 numbers using for loop
 ```python
 arr = [1,2,3,4,5,6,7,8,9,10]
 
